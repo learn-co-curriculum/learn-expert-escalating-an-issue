@@ -1,39 +1,34 @@
 # Escalating a Chat
 
+![escalation](http://i.giphy.com/ToMjGpjpXMFPshSYGLm.gif)
+
 ## About
 
 Sometimes as a Learn expert, you will encounter questions that are beyond your scope to answer. In these cases, you'll need to report the issue.
 
-- [Admissions](#admissions-re-assignment)
-- [Curriculum](https://github.com/flatiron-labs/learn-support/blob/master/curriculum.md)
-- [Personal Escalation](#personal-escalation)
-- [All other issues (Jira)](#how-to-report-an-issue-through-jira)
+- Admissions
+- Personal Escalation
+- All other issues (Jira)
 
 >Note: for tracks that we support, there is no longer an option for students to 'Report a Bug'. We are not in charge of reporting the bugs. This makes it so that all questions can come in through one source so that we don't get the same questions coming in through multiple sources.
 
 ## What kinds of issues should be reported?
 
-### Admissions - [Through the Assign Button](#admissions-re-assignment)
+### Admissions - Through the Assign Button
 
 - Questions about the course and admissions
   - How long does the course take?
   - What courses do you offer?
   - Do you offer scholarships
 
-### Curriculum - Through Github
-
-- Issues related to the curriculum
-  - Labs missing files
-  - Solutions branch not working
-  - Tests broken
-
-Please see the [Curriculum doc](https://github.com/flatiron-labs/learn-support/blob/master/curriculum.md) for more instructions on this.
+Occasionally someone asks non-technical questions such as "How long does this course take to complete?", "Do you offer scholarships?", "Can you explain the job guarantee to me?", etc... If if you feel like you know the answer, please **do not try and answer these questions**. Simply let the student know that this is a great question for our admissions team and that you're going to close this chat question and forward the question to them. Once you get confirmation from the student that this is OK, hit the Assign button and expert-chat will take care of the rest!
 
 ### Personal Escalation - Through Slack
 
-[Personal Escalation](#personal-escalation) is when a student is getting frustrated.
+- Students get a little frustrated all the time, but if a student seems to be really disheartened, or if they mention even in passing that they might (quit | leave | stop) the course, immediately send a DM to @avidor, @Kaitlan, and @peterbell in the flatiron staff slack. Paste the message that concerned you and a link to the question so we can easily get in touch and review. THIS IS REALLY IMPORTANT
+- If in doubt, send too many of these. If necessary we'll refine the instructions but we'd rather get too many false positives than fail to help a student who's having a hard time.
 
-### All other issues - [Through Jira](#how-to-report-an-issue-through-jira)
+### All other issues - Through Jira
 
 - IDE: Any issues related to the Learn IDE
   - Example: IDE is slow, user cannot login...
@@ -45,10 +40,6 @@ Please see the [Curriculum doc](https://github.com/flatiron-labs/learn-support/b
 - Other: Everything else not specified
   - User is having trouble [setting up local env](https://github.com/flatiron-labs/learn-support/blob/master/environment-setup.md)
   - Unable to help student solve a lab
-
-## Admissions Re-Assignment
-
-Occasionally someone asks non-technical questions such as "How long does this course take to complete?", "Do you offer scholarships?", "Can you explain the job guarantee to me?", etc... If if you feel like you know the answer, please **do not try and answer these questions**. Simply let the student know that this is a great question for our admissions team and that you're going to close this chat question and forward the question to them. Once you get confirmation from the student that this is OK, hit the Assign button and expert-chat will take care of the rest!
 
 ## How to report an issue through Jira
 
@@ -107,7 +98,6 @@ As reporting blocking issues is a heavy load on our development team there are s
 - [ ] Do an `@here` in the `#learn-experts` channel to see if any of the other learn experts can help.
 - [ ] If the student can _move forward_ (just got to the next lesson for now) then this is _not_ a blocking issue and can be logged as High, Medium, or Low.
 
-## Personal escalation
+## Resources
 
-- Students get a little frustrated all the time, but if a student seems to be really disheartened, or if they mention even in passing that they might (quit | leave | stop) the course, immediately send a DM to @avidor, @Kaitlan, and @peterbell in the flatiron staff slack. Paste the message that concerned you and a link to the question so we can easily get in touch and review. THIS IS REALLY IMPORTANT
-- If in doubt, send too many of these. If necessary we'll refine the instructions but we'd rather get too many false positives than fail to help a student who's having a hard time.
+- https://github.com/flatiron-labs/learn-support/blob/master/escalation.md
