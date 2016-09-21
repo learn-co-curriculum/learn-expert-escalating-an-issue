@@ -21,21 +21,26 @@ Sometimes as a Learn expert, you will encounter questions that are beyond your s
   - What courses do you offer?
   - Do you offer scholarships
 
-Occasionally someone asks non-technical questions such as "How long does this course take to complete?", "Do you offer scholarships?", "Can you explain the job guarantee to me?", etc... If if you feel like you know the answer, please **do not try and answer these questions**. Simply let the student know that this is a great question for our admissions team and that you're going to close this chat question and forward the question to them. Once you get confirmation from the student that this is OK, hit the Assign button and expert-chat will take care of the rest!
+Occasionally someone asks non-technical questions such as "How long does this course take to complete?", "Do you offer scholarships?", "Can you explain the job guarantee to me?", etc. If if you feel like you know the answer, please **do not try and answer these questions**. Simply let the student know that this is a great question for our admissions team and that you're going to close this chat question and forward the question to them. Once you get confirmation from the student that this is OK, hit the Assign button and expert-chat will take care of the rest!
 
 ### Personal Escalation - Through Slack
 
-- Students get a little frustrated all the time, but if a student seems to be really disheartened, or if they mention even in passing that they might (quit | leave | stop) the course, immediately send a DM to @avidor, @Kaitlan, and @peterbell in the flatiron staff slack. Paste the message that concerned you and a link to the question so we can easily get in touch and review. THIS IS REALLY IMPORTANT
-- If in doubt, send too many of these. If necessary we'll refine the instructions but we'd rather get too many false positives than fail to help a student who's having a hard time.
+Students get a little frustrated all the time, but if a student seems to be really disheartened, or if they mention even in 
+passing that they might (quit | leave | stop) the course, immediately send a DM to @avidor, @kaitlin, and @peterbell in the 
+flatiron staff slack. Paste the message that concerned you and a link to the question so we can easily get in touch and 
+review. THIS IS REALLY IMPORTANT
+
+If in doubt, send too many of these. If necessary we'll refine the instructions but we'd rather get too many false positives
+than fail to help a student who's having a hard time.
 
 ### All other issues - Through Jira
 
 - IDE: Any issues related to the Learn IDE
-  - Example: IDE is slow, user cannot login...
+  - Example: IDE is slow, user cannot login.
 - Chat: Issues related to the /expert-chat, Ask A Question, DM, or Lobby features in Learn
-  - Examples: Chat is totally empty, notifications not showing up for chat...
-- UI: Buttons not working, problems with the site, pages 500ing...
-- Account: Billing, feature access, github name change, blogs...
+  - Examples: Chat is totally empty, notifications not showing up for chat.
+- UI: Buttons not working, problems with the site, pages 500ing.
+- Account: Billing, feature access, github name change, blogs.
 - Lights: Lights not turning on
 - Other: Everything else not specified
   - User is having trouble [setting up local env](https://github.com/flatiron-labs/learn-support/blob/master/environment-setup.md)
@@ -72,7 +77,9 @@ Once everything is all filled in, submit the issue! If a developer needs more cl
 
 ### Blocking
 
-If you create an issue with a priority of Blocker, it will be posted to the escalation channel in slack and the dev team will be notified immediately (this means weekend and off hours, so only use when needed). They will get to it as soon as they can. You should not post directly into the escalation slack channel.
+If you create an issue with a priority of Blocker, it will be posted to the escalation channel in slack and the dev team
+will be notified immediately (this means weekend and off hours, so only use when needed). They will get to it as soon as
+they can. You should not post directly into the escalation slack channel.
 
 #### Things that are _NOT_ blocking
 
@@ -89,7 +96,8 @@ If you create an issue with a priority of Blocker, it will be posted to the esca
 
 #### Pre-Blocking Checklist
 
-As reporting blocking issues is a heavy load on our development team there are steps that must be taken before reporting _any_ blocking issue:
+As reporting blocking issues is a heavy load on our development team there are steps that must be taken before reporting
+_any_ blocking issue:
 
 - [ ] Make sure you or the student (whoever is experiencing the issue) has tried fully refreshing the page
 - [ ] Browse this repo to see if you can find a solution
@@ -100,4 +108,4 @@ As reporting blocking issues is a heavy load on our development team there are s
 
 ## Resources
 
-- https://github.com/flatiron-labs/learn-support/blob/master/escalation.md
+- [Escalation in Reference Guide](https://github.com/flatiron-labs/learn-support/blob/master/escalation.md)
