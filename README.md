@@ -2,7 +2,7 @@
 
 ![escalation](http://i.giphy.com/ToMjGpjpXMFPshSYGLm.gif)
 
-## About
+## Types of Escalation
 
 Sometimes as a Learn expert, you will encounter questions that are beyond your scope to answer. In these cases, you'll need to report the issue.
 
