@@ -25,13 +25,9 @@ Occasionally someone asks non-technical questions such as "How long does this co
 
 ### Personal Escalation - Through Slack
 
-Students get a little frustrated all the time, but if a student seems to be really disheartened, or if they mention even in 
-passing that they might (quit | leave | stop) the course, immediately send a DM to @avidor, @kaitlin, and @peterbell in the 
-flatiron staff slack. Paste the message that concerned you and a link to the question so we can easily get in touch and 
-review. THIS IS REALLY IMPORTANT
+Students get a little frustrated all the time, but if a student seems to be really disheartened, or if they mention even in passing that they might (quit | leave | stop) the course, immediately send a DM to @avidor, @kaitlin, and @peterbell in the flatiron staff slack. Paste the message that concerned you and a link to the question so we can easily get in touch and review. THIS IS REALLY IMPORTANT
 
-If in doubt, send too many of these. If necessary we'll refine the instructions but we'd rather get too many false positives
-than fail to help a student who's having a hard time.
+If in doubt, send too many of these. If necessary we'll refine the instructions but we'd rather get too many false positives than fail to help a student who's having a hard time.
 
 ### All other issues - Through Jira
 
@@ -77,9 +73,7 @@ Once everything is all filled in, submit the issue! If a developer needs more cl
 
 ### Blocking
 
-If you create an issue with a priority of Blocker, it will be posted to the escalation channel in slack and the dev team
-will be notified immediately (this means weekend and off hours, so only use when needed). They will get to it as soon as
-they can. You should not post directly into the escalation slack channel.
+If you create an issue with a priority of Blocker, it will be posted to the escalation channel in slack and the dev team will be notified immediately (this means weekend and off hours, so only use when needed). They will get to it as soon as they can. You should not post directly into the escalation slack channel.
 
 #### Things that are _NOT_ blocking
 
@@ -96,8 +90,7 @@ they can. You should not post directly into the escalation slack channel.
 
 #### Pre-Blocking Checklist
 
-As reporting blocking issues is a heavy load on our development team there are steps that must be taken before reporting
-_any_ blocking issue:
+As reporting blocking issues is a heavy load on our development team there are steps that must be taken before reporting _any_ blocking issue:
 
 - [ ] Make sure you or the student (whoever is experiencing the issue) has tried fully refreshing the page
 - [ ] Browse this repo to see if you can find a solution
