@@ -100,8 +100,8 @@ As reporting blocking issues is a heavy load on our development team there are s
 _any_ blocking issue:
 
 - [ ] Make sure you or the student (whoever is experiencing the issue) has tried fully refreshing the page
-- [ ] Browse this repo to see if you can find a solution
-- [ ] If you cannot find a solution **SEARCH** this repo using key words and error messages
+- [ ] Browse <a href="https://github.com/flatiron-labs/learn-support">the learn-support repo</a> to see if you can find a solution
+- [ ] If you cannot find a solution, **SEARCH** <a href="https://github.com/flatiron-labs/learn-support">the learn-support repo</a> using key words and error messages
 - [ ] If the student is having an issue in the Learn IDE, you should be able to re-create this same issue **IN YOUR OWN LEARN IDE**.
 - [ ] Do an `@here` in the `#learn-experts` channel to see if any of the other learn experts can help.
 - [ ] If the student can _move forward_ (just got to the next lesson for now) then this is _not_ a blocking issue and can be logged as High, Medium, or Low.
