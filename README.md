@@ -57,37 +57,21 @@ Select the appropriate issue type and fill in all required and optional fields.
 
 ![issue modal](https://s3.amazonaws.com/learn-experts/jira-issue-modal.png "Issue Modal")
 
-Once you've filled in all the fields, you'll need to set a priority level. There are many options, but please only use one of the following:
+### Priority Level
 
-- [Blocker](#blocking): Stoping User from advancing (this should be fixed as soon as some one is available)
-  - Examples: Student is unable to use the Learn IDE, important pages are 500ing
-- High: Serious problem that could block progress (this should be fixed in 24 hours)
-  - Examples: Billing issue
-- Medium: Has the potential to affect progress (this should be addressed this week)
-  - Examples: A DM notification is not occurring, needs Slack login, wants account deleted
-- Low: Minor problem or easily worked around (this should be fixed eventually)
-  - Examples: Lights not working
+There are a few different priority levels and it's important to pick the right one. Check out this spread sheet to figure out which would be the best level for you to use: https://docs.google.com/a/flatironschool.com/spreadsheets/d/1_yr-CsT0hIfSEcz9vv9yjkRGWQLeKmG40SNjywphoOc/edit?usp=sharing
 
-Once everything is all filled in, submit the issue! If a developer needs more clarification, they will message you on Slack.
+Note: If this is a Blocker level issue, there are [some things](#pre-blocking-checklist) that will need to be done before submitting. Also, you will need to know if the student is a paying student or not to properly determine the priority level. Check out [this guide](#free-v-paid) to help figure this out!
 
-### Blocking
+#### BLOCKER
 
-If you create an issue with a priority of Blocker, it will be posted to the escalation channel in slack and the dev team will be notified immediately (this means weekend and off hours, so only use when needed). They will get to it as soon as they can. You should not post directly into the escalation slack channel.
-
-#### Things that are _NOT_ blocking
+##### Things that are _NOT_ blocking
 
 - Unable to help a student solve a lab. They can just move on to the next one for the time being.
 - Student changed their github username
   - Have them change it back, log an issue as Medium and some one will schedule a time for them to make the change.
 
-#### Types of Blocking Issues
-
-- Student's Learn IDE is working
-- Student is stuck in the Welcome Track
-- /expert-chat is empty (broken, not just inactive)
-- Curriculum pages on Learn are 500ing
-
-#### Pre-Blocking Checklist
+##### Pre-Blocking Checklist
 
 As reporting blocking issues is a heavy load on our development team there are steps that must be taken before reporting _any_ blocking issue:
 
@@ -97,6 +81,21 @@ As reporting blocking issues is a heavy load on our development team there are s
 - [ ] If the student is having an issue in the Learn IDE, you should be able to re-create this same issue **IN YOUR OWN LEARN IDE**.
 - [ ] Do an `@here` in the `#learn-experts` channel to see if any of the other learn experts can help.
 - [ ] If the student can _move forward_ (just got to the next lesson for now) then this is _not_ a blocking issue and can be logged as High, Medium, or Low.
+
+
+#### Free V Paid
+
+A lot of theses escalation levels rely knowing the difference between a Free student and a Paid student. We can easily figure this out by looking at what batch the question is being asked in.
+
+The following are the only paid batches:
+
+- js-cert-000
+- ruby-cert-000
+- html-000
+- v-000
+- wdf-000
+
+All other batches are Free.locking issue and can be logged as High, Medium, or Low.
 
 ## Resources
 
