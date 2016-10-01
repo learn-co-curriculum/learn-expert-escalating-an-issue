@@ -21,7 +21,7 @@ Sometimes as a Learn expert, you will encounter questions that are beyond your s
   - What courses do you offer?
   - Do you offer scholarships
 
-Occasionally someone asks non-technical questions such as "How long does this course take to complete?", "Do you offer scholarships?", "Can you explain the job guarantee to me?", etc. If if you feel like you know the answer, please **do not try and answer these questions**. Simply let the student know that this is a great question for our admissions team and that you're going to close this chat question and forward the question to them. Once you get confirmation from the student that this is OK, hit the Assign button and expert-chat will take care of the rest!
+Occasionally someone asks non-technical questions such as "How long does this course take to complete?", "Do you offer scholarships?", "Can you explain the job guarantee to me?", etc. If you feel like you know the answer, please **do not try and answer these questions**. Simply let the student know that this is a great question for our admissions team and that you're going to close this chat question and forward the question to them. Once you get confirmation from the student that this is OK, hit the Assign button and expert-chat will take care of the rest!
 
 ### Personal Escalation - Through Slack
 
@@ -101,3 +101,5 @@ All other batches are Free.locking issue and can be logged as High, Medium, or L
 ## Resources
 
 - [Escalation in Reference Guide](https://github.com/flatiron-labs/learn-support/blob/master/escalation.md)
+
+<p class='util--hide'>View <a href='https://learn.co/lessons/learn-expert-escalating-an-issue'>Escalating an Issue</a> on Learn.co and start learning to code for free.</p>
