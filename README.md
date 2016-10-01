@@ -10,7 +10,7 @@ Sometimes as a Learn expert, you will encounter questions that are beyond your s
 - Personal Escalation
 - All other issues (Jira)
 
->Note: for tracks that we support, there is no longer an option for students to 'Report a Bug'. We are not in charge of reporting the bugs. This makes it so that all questions can come in through one source so that we don't get the same questions coming in through multiple sources.
+>Note: for tracks that we support, there is no longer an option for students to 'Report a Bug'. We are now in charge of reporting the bugs. This makes it so that all questions can come in through one source so that we don't get the same questions coming in through multiple sources.
 
 ## What kinds of issues should be reported?
 
@@ -101,3 +101,5 @@ All other batches are Free.locking issue and can be logged as High, Medium, or L
 ## Resources
 
 - [Escalation in Reference Guide](https://github.com/flatiron-labs/learn-support/blob/master/escalation.md)
+
+<p class='util--hide'>View <a href='https://learn.co/lessons/learn-expert-escalating-an-issue'>Escalating an Issue</a> on Learn.co and start learning to code for free.</p>
