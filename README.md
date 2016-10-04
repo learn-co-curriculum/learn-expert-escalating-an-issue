@@ -10,7 +10,7 @@ Sometimes as a Learn expert, you will encounter questions that are beyond your s
 - Personal Escalation
 - All other issues (Jira)
 
->Note: for tracks that we support, there is no longer an option for students to 'Report a Bug'. We are not in charge of reporting the bugs. This makes it so that all questions can come in through one source so that we don't get the same questions coming in through multiple sources.
+>Note: for tracks that we support, there is no longer an option for students to 'Report a Bug'. We are now in charge of reporting the bugs. This makes it so that all questions can come in through one source so that we don't get the same questions coming in through multiple sources.
 
 ## What kinds of issues should be reported?
 
