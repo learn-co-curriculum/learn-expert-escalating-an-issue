@@ -81,12 +81,12 @@ As reporting blocking issues is a heavy load on our development team there are s
 - [ ] If you cannot find a solution, **SEARCH** <a href="https://github.com/flatiron-labs/learn-support">the learn-support repo</a> using key words and error messages
 - [ ] If the student is having an issue in the Learn IDE, you should be able to re-create this same issue **IN YOUR OWN LEARN IDE**.
 - [ ] Do an `@here` in the `#learn-experts` channel to see if any of the other learn experts can help.
-- [ ] If the student can _move forward_ (just got to the next lesson for now) then this is _not_ a blocking issue and can be logged as High, Medium, or Low.
+- [ ] If the student can _move forward_ (just go to the next lesson for now) then this is _not_ a blocking issue and can be logged as High, Medium, or Low.
 
 
 #### Free V Paid
 
-A lot of theses escalation levels rely knowing the difference between a Free student and a Paid student. We can easily figure this out by looking at what batch the question is being asked in.
+A lot of theses escalation levels rely on knowing the difference between a Free student and a Paid student. We can easily figure this out by looking at what batch the question is being asked in.
 
 The following are the only paid batches:
 
@@ -96,7 +96,7 @@ The following are the only paid batches:
 - v-000
 - wdf-000
 
-All other batches are Free.locking issue and can be logged as High, Medium, or Low.
+All other batches are Free.
 
 ## Resources
 
