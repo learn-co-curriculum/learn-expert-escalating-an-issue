@@ -42,7 +42,20 @@ If in doubt, send too many of these. If necessary we'll refine the instructions 
   - User is having trouble [setting up local env](https://github.com/flatiron-labs/learn-support/blob/master/environment-setup.md)
   - Unable to help student solve a lab
 
-## How to report an issue through Jira
+## Report an issue through Jira
+
+### Pre-Escalation Checklist
+
+As reporting an issues is a heavy load on our development team there are steps that must be taken before reporting _any_ issue:
+
+- [ ] Make sure you or the student (whoever is experiencing the issue) has tried fully refreshing the page
+- [ ] Browse <a href="https://github.com/flatiron-labs/learn-support">the learn-support repo</a> and the [Help Center](https://help.learn.co/hc/en-us) to see if you can find a solution
+- [ ] If you cannot find a solution, **SEARCH** <a href="https://github.com/flatiron-labs/learn-support">the learn-support repo</a> and the [Help Center](https://help.learn.co/hc/en-us) using key words and error messages
+- [ ] If the student is having an issue in the Learn IDE, you should be able to re-create this same issue **IN YOUR OWN LEARN IDE**.
+- [ ] Do an `@here` in the `#learn-experts` channel to see if any of the other learn experts can help.
+- [ ] If the student can _move forward_ (just got to the next lesson for now) then this is _not_ a blocking issue and can be logged as High, Medium, or Low.
+
+### How to report an issue through Jira
 
 If you are running into an issue that is beyond your ability, hit the Log Bug Report button in /expert-chat.
 
@@ -57,6 +70,15 @@ This will bring up a modal for you to create a ticket based on issue type.
 Select the appropriate issue type and fill in all required and optional fields.
 
 ![issue modal](https://s3.amazonaws.com/learn-experts/jira-issue-modal.png "Issue Modal")
+
+When creating your ticket make sure to include:
+
+- [ ] All steps taken to try and resolve the error
+- [ ] What you saw and what you expected to see
+- [ ] Steps to re-create the error (it's alright if it's not possible to re-create the error on your machine, but at least include the steps needed to create the error on the student's machine)
+- [ ] Screenshots if available
+
+>Note: Do not just rely on the dev team reading through the chat transcript. Please provide a summary as best you can so they don't have to dig through the chat. 
 
 Once you've filled in all the fields, you'll need to set a priority level. There are many options, but please only use one of the following:
 
@@ -87,17 +109,6 @@ If you create an issue with a priority of Blocker, it will be posted to the esca
 - Student is stuck in the Welcome Track
 - /expert-chat is empty (broken, not just inactive)
 - Curriculum pages on Learn are 500ing
-
-#### Pre-Blocking Checklist
-
-As reporting blocking issues is a heavy load on our development team there are steps that must be taken before reporting _any_ blocking issue:
-
-- [ ] Make sure you or the student (whoever is experiencing the issue) has tried fully refreshing the page
-- [ ] Browse <a href="https://github.com/flatiron-labs/learn-support">the learn-support repo</a> to see if you can find a solution
-- [ ] If you cannot find a solution, **SEARCH** <a href="https://github.com/flatiron-labs/learn-support">the learn-support repo</a> using key words and error messages
-- [ ] If the student is having an issue in the Learn IDE, you should be able to re-create this same issue **IN YOUR OWN LEARN IDE**.
-- [ ] Do an `@here` in the `#learn-experts` channel to see if any of the other learn experts can help.
-- [ ] If the student can _move forward_ (just got to the next lesson for now) then this is _not_ a blocking issue and can be logged as High, Medium, or Low.
 
 ## Resources
 
