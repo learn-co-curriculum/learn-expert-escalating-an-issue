@@ -10,7 +10,7 @@ Sometimes as a Learn expert, you will encounter questions that are beyond your s
 - Personal Escalation
 - All other issues (Jira)
 
->Note: for tracks that we support, there is no longer an option for students to 'Report a Bug'. We are not in charge of reporting the bugs. This makes it so that all questions can come in through one source so that we don't get the same questions coming in through multiple sources.
+>Note: for tracks that we support, there is no longer an option for students to 'Report a Bug'. We are now in charge of reporting the bugs. This makes it so that all questions can come in through one source so that we don't get the same questions coming in through multiple sources.
 
 ## What kinds of issues should be reported?
 
@@ -21,7 +21,7 @@ Sometimes as a Learn expert, you will encounter questions that are beyond your s
   - What courses do you offer?
   - Do you offer scholarships
 
-Occasionally someone asks non-technical questions such as "How long does this course take to complete?", "Do you offer scholarships?", "Can you explain the job guarantee to me?", etc. If if you feel like you know the answer, please **do not try and answer these questions**. Simply let the student know that this is a great question for our admissions team and that you're going to close this chat question and forward the question to them. Once you get confirmation from the student that this is OK, hit the Assign button and expert-chat will take care of the rest!
+Occasionally someone asks non-technical questions such as "How long does this course take to complete?", "Do you offer scholarships?", "Can you explain the job guarantee to me?", etc. If you feel like you know the answer, please **do not try and answer these questions**. Simply let the student know that this is a great question for our admissions team and that you're going to close this chat question and forward the question to them. Once you get confirmation from the student that this is OK, hit the Assign button and expert-chat will take care of the rest!
 
 ### Personal Escalation - Through Slack
 
@@ -82,22 +82,15 @@ When creating your ticket make sure to include:
 
 Once you've filled in all the fields, you'll need to set a priority level. There are many options, but please only use one of the following:
 
-- [Blocker](#blocking): Stoping User from advancing (this should be fixed as soon as some one is available)
-  - Examples: Student is unable to use the Learn IDE, important pages are 500ing
-- High: Serious problem that could block progress (this should be fixed in 24 hours)
-  - Examples: Billing issue
-- Medium: Has the potential to affect progress (this should be addressed this week)
-  - Examples: A DM notification is not occurring, needs Slack login, wants account deleted
-- Low: Minor problem or easily worked around (this should be fixed eventually)
-  - Examples: Lights not working
+### Priority Level
 
-Once everything is all filled in, submit the issue! If a developer needs more clarification, they will message you on Slack.
+There are a few different priority levels and it's important to pick the right one. Check out this spread sheet to figure out which would be the best level for you to use: https://docs.google.com/a/flatironschool.com/spreadsheets/d/1_yr-CsT0hIfSEcz9vv9yjkRGWQLeKmG40SNjywphoOc/edit?usp=sharing
 
-### Blocking
+Note: If this is a Blocker level issue, there are [some things](#pre-blocking-checklist) that will need to be done before submitting. Also, you will need to know if the student is a paying student or not to properly determine the priority level. Check out [this guide](#free-v-paid) to help figure this out!
 
-If you create an issue with a priority of Blocker, it will be posted to the escalation channel in slack and the dev team will be notified immediately (this means weekend and off hours, so only use when needed). They will get to it as soon as they can. You should not post directly into the escalation slack channel.
+#### BLOCKER
 
-#### Things that are _NOT_ blocking
+##### Things that are _NOT_ blocking
 
 - Unable to help a student solve a lab. They can just move on to the next one for the time being.
 - Student changed their github username
@@ -110,6 +103,22 @@ If you create an issue with a priority of Blocker, it will be posted to the esca
 - /expert-chat is empty (broken, not just inactive)
 - Curriculum pages on Learn are 500ing
 
+#### Free V Paid
+
+A lot of theses escalation levels rely on knowing the difference between a Free student and a Paid student. We can easily figure this out by looking at what batch the question is being asked in.
+
+The following are the only paid batches:
+
+- js-cert-000
+- ruby-cert-000
+- html-000
+- v-000
+- wdf-000
+
+All other batches are Free.
+
 ## Resources
 
 - [Escalation in Reference Guide](https://github.com/flatiron-labs/learn-support/blob/master/escalation.md)
+
+<p class='util--hide'>View <a href='https://learn.co/lessons/learn-expert-escalating-an-issue'>Escalating an Issue</a> on Learn.co and start learning to code for free.</p>
