@@ -29,6 +29,10 @@ Students get a little frustrated all the time, but if a student seems to be real
 
 If in doubt, send too many of these. If necessary we'll refine the instructions but we'd rather get too many false positives than fail to help a student who's having a hard time.
 
+### Struggling Student
+
+This is if a paying student is sturggling with the curriculum. It's not on you as a Technical Coach to teach students who are struggling with whole concepts. You want to make sure to **add a note about the students struggle** to their admin profile on Learn and make sure to **email or slack the Technical Coach manager** the link to this issue so we can get the student some help from the Section Leads. 
+
 ### All other issues - Through Jira
 
 - IDE: Any issues related to the Learn IDE
