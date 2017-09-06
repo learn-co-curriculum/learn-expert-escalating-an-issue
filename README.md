@@ -102,7 +102,7 @@ Note: If this is a Blocker level issue, there are [some things](#pre-blocking-ch
 
 #### Types of Blocking Issues
 
-- Student's Learn IDE is working
+- Student's Learn IDE is not working
 - Student is stuck in the Welcome Track
 - /expert-chat is empty (broken, not just inactive)
 - Curriculum pages on Learn are 500ing
