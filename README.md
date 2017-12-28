@@ -4,7 +4,7 @@
 
 ## Types of Escalation
 
-Sometimes as a Learn expert, you will encounter questions that are beyond your scope to answer. In these cases, you'll need to report the issue.
+Sometimes as a technical coach, you will encounter questions that are beyond your scope to answer. In these cases, you'll need to report the issue.
 
 - Admissions
 - Personal Escalation
@@ -25,7 +25,7 @@ Occasionally someone asks non-technical questions such as "How long does this co
 
 ### Personal Escalation - Through Slack
 
-Students get a little frustrated all the time, but if a student seems to be really disheartened, or if they mention even in passing that they might (quit | leave | stop) the course, immediately send a DM to @avidor, @kaitlin, and @peterbell in the flatiron staff slack. Paste the message that concerned you and a link to the question so we can easily get in touch and review. THIS IS REALLY IMPORTANT
+Students get a little frustrated all the time, but if a student seems to be really disheartened, or if they mention even in passing that they might (quit | leave | stop) the course, immediately send a DM to @ruth, @kaitlin, and @peterbell in the flatiron staff slack. Paste the message that concerned you and a link to the question so we can easily get in touch and review. THIS IS REALLY IMPORTANT
 
 If in doubt, send too many of these. If necessary we'll refine the instructions but we'd rather get too many false positives than fail to help a student who's having a hard time.
 
@@ -56,7 +56,7 @@ As reporting an issues is a heavy load on our development team there are steps t
 - [ ] Browse <a href="https://github.com/flatiron-labs/learn-support">the learn-support repo</a> and the [Help Center](https://help.learn.co/hc/en-us) to see if you can find a solution
 - [ ] If you cannot find a solution, **SEARCH** <a href="https://github.com/flatiron-labs/learn-support">the learn-support repo</a> and the [Help Center](https://help.learn.co/hc/en-us) using key words and error messages
 - [ ] If the student is having an issue in the Learn IDE, you should be able to re-create this same issue **IN YOUR OWN LEARN IDE**.
-- [ ] Do an `@here` in the `#learn-experts` channel to see if any of the other learn experts can help.
+- [ ] Do an `@here` in the `#technical-coaches` channel to see if any of the other technical coaches can help.
 - [ ] If the student can _move forward_ (just got to the next lesson for now) then this is _not_ a blocking issue and can be logged as High, Medium, or Low.
 
 ### How to report an issue through Jira
@@ -82,6 +82,26 @@ When creating your ticket make sure to include:
 - [ ] Steps to re-create the error (it's alright if it's not possible to re-create the error on your machine, but at least include the steps needed to create the error on the student's machine)
 - [ ] Screenshots if available
 
+**example of how to communicate with developers**
+```
+Full Name: Michael Jackson
+Github Username: HeeHee
+
+OS: Sierra
+Environment: Learn IDE V3
+
+Issue: Test and PR light won't turn green after passing test and doing learn submit on the Music CLI lesson
+
+Thing's we've tried:
+- Refresh the page (after everything we tried)
+- Checked connection to learn with learnwhoami
+- Checked internet connection 30Mbs D / 10MBS U
+- Deleted forked repo and re forked, ran learn and learn submit
+- Deleted local copy and re-cloned, ran learn and learn submit
+
+Attached is some errors in the console of the ide while running learn and learn submit
+```
+
 >Note: Do not just rely on the dev team reading through the chat transcript. Please provide a summary as best you can so they don't have to dig through the chat. 
 
 Once you've filled in all the fields, you'll need to set a priority level. There are many options, but please only use one of the following:
@@ -102,7 +122,7 @@ Note: If this is a Blocker level issue, there are [some things](#pre-blocking-ch
 
 #### Types of Blocking Issues
 
-- Student's Learn IDE is working
+- Student's Learn IDE is not working
 - Student is stuck in the Welcome Track
 - /expert-chat is empty (broken, not just inactive)
 - Curriculum pages on Learn are 500ing
